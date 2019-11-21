@@ -19,4 +19,11 @@ public class DeckTest {
         assertEquals(52, deck.countAllCardsInDeck());
     }
 
+
+
+    @Test
+    public void cardIsDealt(){
+        deck.dealCard();
+        assertEquals(51, deck.countAllCardsInDeck());
+    }
 }
