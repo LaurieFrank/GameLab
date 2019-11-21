@@ -11,8 +11,7 @@ public enum RankType {
     TEN(10),
     JACK(10),
     QUEEN(10),
-    KING(10),
-    JOKER(0);
+    KING(10);
 
     private final int value;
 
